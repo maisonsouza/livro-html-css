@@ -182,14 +182,14 @@
     <tbody>
       <tr>
         <td>Maison</td>
-      <td>Masculino</td>
+        <td>Masculino</td>
         <td>29</td>
         <td>Azul</td>
       </tr>
 
       <tr>
         <td>Jose</td>
-      <td>Feminino</td>
+        <td>Feminino</td>
         <td>30</td>
         <td>Rosa</td>
       </tr>
@@ -203,9 +203,118 @@
       </tfoot>
 
     </tbody>
-
-
-
   </table>
+
+  <h3>Formulários</h3>
+  <form class="exemplo" action="index.html" method="get">
+    <p>Usuário</p>
+    <input type="text" name="username" value="" size="15" maxlength="30" />
+    <p>Password</p>
+    <input type="password" name="password" value="" size="10" maxlength="20" />
+    <p>Mensagem</p>
+    <textarea name="message" cols=20 rows="4"> Escreva seu comentário </textarea>
+
+    <p>Seu gênero musical favorito</p>
+    <input type="radio" name="genero" value="rock" checked="checked" /> Rock
+    <input type="radio" name="genero" value="pop" />Pop
+    <input type="radio" name="genero" value="hiphop" />Hip-Hop
+
+    <p>Seu serviço de streaming musical favorito</p>
+    <input type="checkbox" name="service" value="Spotify" checked="checked" /> Spotify
+    <input type="checkbox"name="service" value="Deezer" /> Deezer
+  </form>
+
+  <p>Caixa de Lista Suspensa - Dispositivos</p>
+  <select class="Dispositivos" name="Dispositivos">
+    <option value="iPOD" >iPOD</option>
+    <option value="Celular" selected="selected">Celular</option>
+    <option value="Tablet">Tablet</option>
+  </select>
+
+  <p>Caixa de Multipla Seleção - Instrumentos</p>
+  <select class="Instrumentos" name="Instrumentos" size="4" multiple="multiple">
+    <option value="baixo" >Baixo</option>
+    <option value="guitarra" selected="selected">Guitarra</option>
+    <option value="Tambor">Tambor</option>
+    <option value="Violão">Violão</option>
+  </select>
+
+  <p>Caixa de Entrada de Arquivo</p>
+  <input type="file" name="song" />
+  <input type="submit" value="Upload">
+
+  <p>Botão Enviar</p>
+  <p>Email</p>
+  <input type="text" name="email" >
+  <input type="submit" name="inscrever" value="Subscribe">
+
+  <p>Botão de Imagem</p>
+  <p>Email</p>
+  <input type="text" name="email" >
+  <input type="image" src="images/subscribe-button.jpg" width="100px" height="60">
+
+
+  <p>Botões e Controles Ocultos</p>
+  <button type="button" name="button"> <img src="images/add-button.png" alt="Botão Adicionar"  width="40px" height="40px"> Add </button>
+  <input type="hidden" name="bookmark" value="lyrics">
+
+
+  <p>Rotulando controle de formulários</p>
+  <p>Seus dados</p>
+  <label>Idade: <input type="text" name="idade"> </label> <br>
+  <label>Sexo:</label>
+  <input id="male" type="radio" name="genero" value="m" checked="checked" />
+  <label for="male">Masculino</label>
+  <input id="female" type="radio" name="genero" value="f" />
+  <label for="female">Feminino</label>
+
+
+  <p>Agrupando Elementos de Formulário</p>
+  <fieldset>
+    <legend>Detalhes para contato</legend>
+    <label>Email:<br/>
+      <input type="text" name="email">
+    </label>
+
+    <label>Celular: <br/>
+      <input type="text" name="celular">
+    </label>
+
+    <label>Telefone:<br/>
+      <input type="text" name="telefone">
+    </label>
+  </fieldset>
+
+  <p>Validação de Formulário</p>
+  <form class="exemplo" action="index.html" method="post">
+    <label for="user">Usuário</label>
+    <input id="user "type="text" name="username" value="" size="15" maxlength="30" required="required"/>
+    <label for="password">Password</label>
+    <input id="password" type="password" name="password" value="" size="10" maxlength="20" />
+    <input type="submit" name="enviar" value="Enviar">
+  </form>
+
+
+  <p>Entrada de datas</p>
+  <form class="exemplo" action="index.html" method="post">
+    <label for="user-data">Data de Entrada </label>
+    <input id="user-data "type="date" name="entrada-data" />
+    <input type="submit" value="Enviar">
+  </form>
+
+  <p>Entrada de email e url</p>
+  <form class="" action="index.html" method="post">
+    <label>Entre com seu Email:<br/>
+      <input type="email" name="email">
+    </label>
+    <label>Url:</label>
+    <input type="url" name="url">
+
+    <input type="submit" value="Enviar">
+  </form>
+
+  <p>Entrada de pesquisa</p>
+  <input type="search" name="pesquisar" placeholder="Entre com a pesquisa">
+  <input type="submit" value="Pesquisar">
 </body>
 </html>
