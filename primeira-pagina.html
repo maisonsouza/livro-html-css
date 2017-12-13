@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="css/estilo.css"/>
   <title>Hello Word</title>
 </head>
+
 <body>
-  <h3> Cabeçalhos</h3>
-  <h1> Eu sou um Título Principal </h1>
-  <h2>Eu sou um subtítulo </h2>
+
+  <header>
+      <p>HTML</p>
+  </header>
+<nav>
+  <ul>
+    <li> <a href="#texto">Texto</a> </li>
+    <li> <a href="#marcacao_semantica">Marcação Semântica</a> </li>
+    <li> <a href="#listas">Listas</a> </li>
+    <li> <a href="#links">Links</a> </li>
+    <li> <a href="#imagens">Imagens</a> </li>
+    <li> <a href="#tabelas">Tabelas</a> </li>
+    <li> <a href="#formularios">Formulários</a> </li>
+
+    <li> <a href="#audio">Áudio</a> </li>
+    <li> <a href="#video">Vídeo</a> </li>
+  </ul>
+</nav>
+  <main>
+    <p id="texto" class="categoria"> Texto </p>
+  <h1> Eu sou um Título Principal - Exemplo de h1 </h1>
+  <h2>Eu sou um subtítulo - Exemplo de h2</h2>
   <h3>Essa página foi criada por Maison Galvão - Exemplo de h3</h3>
-  <h4>Data: 08/12/17 - Exemplod e h4</h4>
+  <h4>Data: 08/12/17 - Exemplo de h4</h4>
   <h5>Utilizando o Editor Atom - Exemplo de h5</h5>
   <h6>Utilizando o livro físico do Jon Duckett - Exemplo de h6</h6>
-  <p> Formatações no texto </p>
+
   <b>Exemplo de negrito </b>
   <i>Exemplo de itálico</i>
   <sup>Exemplo de sobrescrito</sup>
@@ -24,7 +46,7 @@
   <p>Aqui tenho uma <br/> quebra de linha</p>
   <hr> Aqui temos uma linha horizontal
 
-  <h3> Marcações semânticas</h3>
+  <p id="marcacao_semantica" class="categoria"> Marcações semânticas</p>
   <strong>Exemplo de marcação semântica</strong>
   <em> Marcação semântica </em>
   <blockquote cite="http://www.google.com">
@@ -42,7 +64,7 @@
   <p>Texto original <del>Exluído</del> </p>
   <p>Texto original <s>Não relevante </s> </p>
 
-  <h3> Listas </h3>
+  <p id="listas" class="categoria"> Listas</p>
   <p>Listas ordenadas</p>
   <ol>
     <li>Vasco</li>
@@ -75,7 +97,7 @@
     </ul>
   </ul>
 
-  <h3>Links</h3>
+    <p id="links" class="categoria"> Links </p>
   <p>Para outros sites </p>s
   <a href="http:\\www.facebook.com/maisonsouza"> Facebook </a>
   <p>Para o próprio site</p>
@@ -85,7 +107,7 @@
   <p>Links para classes</p>
   <a href="#email">Meu Email</a>
 
-  <h3> Imagens </h3>
+    <p id="imagens" class="categoria"> Imagens </p>
   <img src="images/html.jpg" alt="HTML 5 logo" title="A ultima versão da html"/>
   <p>Altura e Largura</p>
   <img src="images/html.jpg" alt="HTML 5 logo" title="A ultima versão da html" height="150px" width="250px"/>
@@ -95,7 +117,7 @@
     <figcaption>Logo do Curso de Design da Alura</figcaption>
   </figure>
 
-  <h3>Tabelas</h3>
+    <p id="tabelas"class="categoria"> Tabelas </p>
   <table>
 
     <tr>
@@ -205,7 +227,7 @@
     </tbody>
   </table>
 
-  <h3>Formulários</h3>
+  <p id="formularios"class="categoria"> Formulários </p>
   <form class="exemplo" action="index.html" method="get">
     <p>Usuário</p>
     <input type="text" name="username" value="" size="15" maxlength="30" />
@@ -317,14 +339,17 @@
   <input type="search" name="pesquisar" placeholder="Entre com a pesquisa">
   <input type="submit" value="Pesquisar">
 
-  <p> Exemplo de iframe </p>
+  <p id="iframe"class="categoria"> IFrame </p>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9666365332278!2d-59.96398178524287!3d-3.1035202977400598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c04cb89c50b91%3A0xe928366bbc7a312!2sRua+Julia+Lopes+-+Japiim%2C+Manaus+-+AM!5e0!3m2!1spt-BR!2sbr!4v1512931381677" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-  <p>Exemplo de audio</p>
+  <p id="audio"class="categoria"> Aúdio </p>
   <audio controls src="music/Despacito.mp3" >
   </audio>
-  <p>Exemplo de usu de Vídeo em HTML</p>
-  <video controls src="video/star-wars.webm" autoplay poster="posterimage.jpg">
+    <p id="video"class="categoria"> Vídeo </p>
+  <video controls src="video/star-wars.webm" poster="images/posterimage.jpg">
   </video>
+
+    </main>
+    <footer> Desenvolvido por Maison Galvão </footer>
 
   </html>
