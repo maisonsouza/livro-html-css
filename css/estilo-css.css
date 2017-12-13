@@ -1,0 +1,212 @@
+body{
+  background-image: url("../images/fundo.jpg");
+}
+main{
+  font-family: 'Roboto', sans-serif;
+  background: #FFFFE0;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+header{
+  text-align: center;
+  font-size: 2em;
+  color: #FFF;
+}
+
+.categoria{
+  text-align: center;
+  font-size: 2em;
+  color: rgb(244,90,139);
+  text-transform: uppercase;
+  padding-top: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h1{
+  color:DarkCyan;
+}
+
+h2{
+  color: #ee3e80;
+}
+
+h3{
+  color:rgb(100,100,90);
+}
+h4{
+  color:rgb(200,200,200);
+}
+h5{
+  color: rgb(102,205,170);
+}
+h6{
+  color: rgb(232,35,168);
+}
+
+#cor-fundo{
+  background-color: rgb(244,190,139);
+}
+
+#comserifa{
+  font-family: serif;
+}
+
+#semserifa{
+  font-family: sans-serif;
+}
+
+#monoespacada{
+  font-family: monospace;
+}
+
+#peso-light{
+  font-weight: lighter;
+}
+
+#peso-medium{
+  font-weight: normal;
+}
+
+#peso-bold{
+  font-weight: bold;
+}
+
+#peso-black{
+  font-weight: 900;
+}
+
+#obliquo{
+  font-style: oblique;
+}
+
+#italico{
+  font-style: italic;
+}
+
+#condensada{
+  font-stretch:condensed;
+}
+
+#regular{
+  font-stretch:normal;
+}
+
+#extendida{
+  font-stretch: ultra-expanded;
+}
+
+#tamanho-1{
+  font-size: 12px;
+}
+
+#tamanho-2{
+  font-size: 200%;
+}
+
+#tamanho-3{
+  font-size: 2.3em;
+}
+
+#tamanho-4{
+  font-size: 3.85rem;
+}
+
+#upper{
+  text-transform: uppercase;
+}
+#lower{
+  text-transform: lowercase;
+}
+#capitalized{
+  text-transform: capitalize;
+}
+
+#decoracao-1{
+  text-decoration: underline;
+}
+
+#decoracao-2{
+  text-decoration: overline;
+}
+
+#decoracao-3{
+  text-decoration: line-through;
+}
+
+#decoracao-4{
+  text-decoration: blink;
+}
+
+#espacao-1{
+  letter-spacing: 1.5em;
+}
+#espacao-2{
+  word-spacing: 2em;
+}
+
+#alinhamento-1{
+  text-align: left;
+}
+#alinhamento-2{
+  text-align: center;
+}
+#alinhamento-3{
+  text-align: right;
+}
+
+#recuo{
+  text-indent: 4em;
+}
+
+#sombra{
+  text-shadow: -1px -1px #666666;
+}
+
+#primeira-letra:first-letter{
+  font-size: 200px;
+}
+
+#primeira-linha::first-line{
+  font-weight: bolder;
+}
+
+
+
+p{
+  font-size: 1.5em;
+}
+#navegacao{
+  font-family: 'Pacifico', cursive;
+    font-size: 1.6em;
+}
+nav ul{
+  background-color: rgb(140,202,242);
+  background-color: hsla(202, 80%, 50%, 0.7);
+  display: flex;
+  justify-content:space-around;
+  list-style: none;
+  align-items: center;
+
+}
+nav ul li{
+  display: inline;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover{
+  color: rgb(244,90,139);
+}
+
+footer{
+  color: #FFF;
+  font-size: 1.5em;
+  text-align: center;
+  text-shadow: -5px 2px blur;
+}

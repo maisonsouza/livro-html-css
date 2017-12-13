@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo-css.css"/>
+  <title>CSS Page</title>
+</head>
+
+<body>
+
+  <header>
+      <p>CSS</p>
+  </header>
+<nav id="navegacao">
+  <ul>
+    <li> <a href="#cor">Cor</a> </li>
+    <li> <a href="#fontes">Fontes</a> </li>
+    <li> <a href="#caixas">Caixas</a> </li>
+    <li> <a href="#listas">Listas</a> </li>
+    <li> <a href="#tabelas">Tabelas</a> </li>
+    <li> <a href="#formularios">Formulários</a> </li>
+    <li> <a href="#imagens">Imagens</a> </li>
+  </ul>
+</nav>
+  <main>
+    <p id="cor" class="categoria"> Cor </p>
+  <h1> Exemplo de color </h1>
+  <h2>Exemplo de color </h2>
+  <h3>Exemplo de color </h3>
+  <h4>Exemplo de color </h4>
+  <h5>Exemplo de color </h5>
+  <h6>Exemplo de color </h6>
+  <p id="cor-fundo">Exemplo de cor de fundo</p>
+
+  <p id="fontes" class="categoria">Fontes</p>
+  <p id="comserifa">Exemplo de fontes - serifa</p>
+  <p id="semserifa">Exemplo de fontes - sem serifa</p>
+  <p id="monoespacada">Exemplo de fontes - monoespaçada</p>
+  <p id="peso-light">Peso Light</p>
+  <p id="peso-medium">Peso Medium</p>
+  <p id="peso-bold">Peso Bold</p>
+  <p id="peso-black">Peso Black</p>
+  <p>Estilo Normal</p>
+  <p id="obliquo">Estilo obliquo</p>
+  <p id="italico">Estilo itálico</p>
+  <p id="condensada">Condensada</p>
+  <p id="regular">Regular</p>
+  <p id="extendida">Extended</p>
+  <p id="tamanho-1">Tamanho de fonte 1</p>
+  <p id="tamanho-2">Tamanho de fonte 2</p>
+  <p id="tamanho-3">Tamanho de fonte 3</p>
+  <p id="tamanho-4">Tamanho de fonte 4</p>
+  <p id="upper">texto maiusculo</p>
+  <p id="lower">texto minusculo</p>
+  <p id="capitalized">texto capitalizado</p>
+  <p>Exemplo de posição de texto
+  <sup>Exemplo de sobrescrito</sup>
+  <sub>Exemplo de subscrito</sub>
+  </p>
+  <p id="decoracao-1">Texto com linha</p>
+  <p id="decorcao-2">Texto sem linha</p>
+  <p id="decoracao-3">Texto com linha no meio</p>
+  <p id="espacao-1">Espaço entre letras</p>
+  <p id="espacao-2">Espaço entre palavras</p>
+  <p id="alinhamento-1">Alinhamento do texto</p>
+  <p id="alinhamento-2">Alinhamento do texto</p>
+  <p id="alinhamento-3">Alinhamento do texto</p>
+  <p id="recuo">Recuo do texto</p>
+  <p id="sombra">Texto com sombra projetada</p>
+  <p id="primeira-letra">primeira letra</p>
+  <p id="primeira-linha">primeira linha</p>
+
+  <p id="caixas"class="categoria"> Caixas</p>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9666365332278!2d-59.96398178524287!3d-3.1035202977400598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c04cb89c50b91%3A0xe928366bbc7a312!2sRua+Julia+Lopes+-+Japiim%2C+Manaus+-+AM!5e0!3m2!1spt-BR!2sbr!4v1512931381677" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+  <p id="audio"> Aúdio </p>
+  <audio controls src="music/Despacito.mp3" >
+  </audio>
+    <p id="video"> Vídeo </p>
+  <video controls src="video/star-wars.webm" poster="images/posterimage.jpg">
+  </video>
+
+  <p id="texto" class="categoria"> Texto </p>
+  <strong>Exemplo de marcação semântica</strong>
+  <em> Marcação semântica </em>
+  <blockquote cite="http://www.google.com">
+    A resposta das perguntas está aqui.
+  </blockquote>
+  <q cite="Maison Galvão"> Eu vou conseguir e vai ser agora</q>
+  <abbr title="Organização Mundial de Saúde"> OMS </abbr>
+  <cite>Adoro a série cosmos </cite>
+  <dfn>Google</dfn> é um site de pesquisas.
+  <address id="email" <a href="mailto:maisongalvao144@gmail.com">
+    maisongalvao144@gmail.com </a>
+  </address>
+  <p>Texto original</p>
+  <p>Texto original <ins>Inserido</ins>  </p>
+  <p>Texto original <del>Exluído</del> </p>
+  <p>Texto original <s>Não relevante </s> </p>
+
+  <p id="listas" class="categoria"> Listas</p>
+  <p>Listas ordenadas</p>
+  <ol>
+    <li>Vasco</li>
+    <li>Flamengo</li>
+    <li>São Paulo</li>
+    <li>Botafogo</li>
+  </ol>
+
+  <p> Listas Não ordenadas </p>
+  <ul>
+    <li>Morango</li>
+    <li>Chocolate</li>
+    <li>Abacaxi</li>
+    <li>Ameixa</li>
+  </ul>
+
+  <dl class="Site">
+    <dt>Google</dt>
+    <dd>É o principal mecanismo de pesquisa na Web</dd>
+  </dl>
+
+  <p>Listas Aninhadas</p>
+  <ul>
+    <li>Arroz</li>
+    <li>Feijão</li>
+    <li>Carne</li>
+    <ul>
+      <li>Alcatra</li>
+      <li>Maminha</li>
+    </ul>
+  </ul>
+
+    <p id="links" class="categoria"> Links </p>
+  <p>Para outros sites </p>s
+  <a href="http:\\www.facebook.com/maisonsouza"> Facebook </a>
+  <p>Para o próprio site</p>
+  <a href="primeira-pagina.html">Home</a>
+  <p>Links de Email com target</p>
+  <a href="mailto:maisongalvao144@gmail.com" target="_blank">Meu Email</a>
+  <p>Links para classes</p>
+  <a href="#email">Meu Email</a>
+
+    <p id="imagens" class="categoria"> Imagens </p>
+  <img src="images/html.jpg" alt="HTML 5 logo" title="A ultima versão da html"/>
+  <p>Altura e Largura</p>
+  <img src="images/html.jpg" alt="HTML 5 logo" title="A ultima versão da html" height="150px" width="250px"/>
+  <p>Figura e Legenda da Imagem</p>
+  <figure>
+    <img src="images/curso-design.svg" alt="Curso de Design" height="30%" width="30%">
+    <figcaption>Logo do Curso de Design da Alura</figcaption>
+  </figure>
+
+    <p id="tabelas"class="categoria"> Tabelas </p>
+  <table>
+
+    <tr>
+      <td>Maison</td>
+      <td>Jose</td>
+      <td>Luciano</td>
+    </tr>
+
+    <tr>
+      <td>29</td>
+      <td>30</td>
+      <td>8</td>
+    </tr>
+  </table>
+  <p> Tabelas com títulos</p>
+
+  <table>
+    <tr>
+      <th>Nomes</th>
+      <td>Maison</td>
+      <td>Jose</td>
+      <td>Luciano</td>
+    </tr>
+
+    <tr>
+      <th>Idades</th>
+      <td>29</td>
+      <td>30</td>
+      <td>8</td>
+    </tr>
+  </table>
+
+  <p> Mesclando colunas</p>
+  <table>
+    <tr>
+      <th>Nomes</th>
+      <td>Luciano</td>
+      <td>Vitinho</td>
+      <td>Maison</td>
+      <td>Jose</td>
+
+    </tr>
+
+    <tr>
+      <th>Idades</th>
+      <td colspan="2">8</td>
+      <td>29</td>
+      <td>30</td>
+
+    </tr>
+  </table>
+
+  <p> Mesclando linhas</p>
+  <table>
+    <tr>
+      <th>Nomes</th>
+      <td rowspan="2">Crianças</td>
+      <td>Maison</td>
+      <td>Jose</td>
+
+    </tr>
+
+    <tr>
+      <th>Idades</th>
+      <td colspan="2">8</td>
+      <td>29</td>
+      <td>30</td>
+
+    </tr>
+  </table>
+
+  <p> Tabelas Longas</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nomes</th>
+        <th>Sexo</th>
+        <th>Idade</th>
+        <th>Cor</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Maison</td>
+        <td>Masculino</td>
+        <td>29</td>
+        <td>Azul</td>
+      </tr>
+
+      <tr>
+        <td>Jose</td>
+        <td>Feminino</td>
+        <td>30</td>
+        <td>Rosa</td>
+      </tr>
+
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td colspan="2">59</td>
+        </tr>
+      </tfoot>
+
+    </tbody>
+  </table>
+
+  <p id="formularios"class="categoria"> Formulários </p>
+  <form class="exemplo" action="index.html" method="get">
+    <p>Usuário</p>
+    <input type="text" name="username" value="" size="15" maxlength="30" />
+    <p>Password</p>
+    <input type="password" name="password" value="" size="10" maxlength="20" />
+    <p>Mensagem</p>
+    <textarea name="message" cols=20 rows="4"> Escreva seu comentário </textarea>
+
+    <p>Seu gênero musical favorito</p>
+    <input type="radio" name="genero" value="rock" checked="checked" /> Rock
+    <input type="radio" name="genero" value="pop" />Pop
+    <input type="radio" name="genero" value="hiphop" />Hip-Hop
+
+    <p>Seu serviço de streaming musical favorito</p>
+    <input type="checkbox" name="service" value="Spotify" checked="checked" /> Spotify
+    <input type="checkbox"name="service" value="Deezer" /> Deezer
+  </form>
+
+  <p>Caixa de Lista Suspensa - Dispositivos</p>
+  <select class="Dispositivos" name="Dispositivos">
+    <option value="iPOD" >iPOD</option>
+    <option value="Celular" selected="selected">Celular</option>
+    <option value="Tablet">Tablet</option>
+  </select>
+
+  <p>Caixa de Multipla Seleção - Instrumentos</p>
+  <select class="Instrumentos" name="Instrumentos" size="4" multiple="multiple">
+    <option value="baixo" >Baixo</option>
+    <option value="guitarra" selected="selected">Guitarra</option>
+    <option value="Tambor">Tambor</option>
+    <option value="Violão">Violão</option>
+  </select>
+
+  <p>Caixa de Entrada de Arquivo</p>
+  <input type="file" name="song" />
+  <input type="submit" value="Upload">
+
+  <p>Botão Enviar</p>
+  <p>Email</p>
+  <input type="text" name="email" >
+  <input type="submit" name="inscrever" value="Subscribe">
+
+  <p>Botão de Imagem</p>
+  <p>Email</p>
+  <input type="text" name="email" >
+  <input type="image" src="images/subscribe-button.jpg" width="100px" height="60">
+
+
+  <p>Botões e Controles Ocultos</p>
+  <button type="button" name="button"> <img src="images/add-button.png" alt="Botão Adicionar"  width="40px" height="40px"> Add </button>
+  <input type="hidden" name="bookmark" value="lyrics">
+
+
+  <p>Rotulando controle de formulários</p>
+  <p>Seus dados</p>
+  <label>Idade: <input type="text" name="idade"> </label> <br>
+  <label>Sexo:</label>
+  <input id="male" type="radio" name="genero" value="m" checked="checked" />
+  <label for="male">Masculino</label>
+  <input id="female" type="radio" name="genero" value="f" />
+  <label for="female">Feminino</label>
+
+
+  <p>Agrupando Elementos de Formulário</p>
+  <fieldset>
+    <legend>Detalhes para contato</legend>
+    <label>Email:<br/>
+      <input type="text" name="email">
+    </label>
+
+    <label>Celular: <br/>
+      <input type="text" name="celular">
+    </label>
+
+    <label>Telefone:<br/>
+      <input type="text" name="telefone">
+    </label>
+  </fieldset>
+
+  <p>Validação de Formulário</p>
+  <form class="exemplo" action="index.html" method="post">
+    <label for="user">Usuário</label>
+    <input id="user "type="text" name="username" value="" size="15" maxlength="30" required="required"/>
+    <label for="password">Password</label>
+    <input id="password" type="password" name="password" value="" size="10" maxlength="20" />
+    <input type="submit" name="enviar" value="Enviar">
+  </form>
+
+
+  <p>Entrada de datas</p>
+  <form class="exemplo" action="index.html" method="post">
+    <label for="user-data">Data de Entrada </label>
+    <input id="user-data "type="date" name="entrada-data" />
+    <input type="submit" value="Enviar">
+  </form>
+
+  <p>Entrada de email e url</p>
+  <form class="" action="index.html" method="post">
+    <label>Entre com seu Email:<br/>
+      <input type="email" name="email">
+    </label>
+    <label>Url:</label>
+    <input type="url" name="url">
+
+    <input type="submit" value="Enviar">
+  </form>
+
+  <p>Entrada de pesquisa</p>
+  <input type="search" name="pesquisar" placeholder="Entre com a pesquisa">
+  <input type="submit" value="Pesquisar">
+
+
+
+    </main>
+    <footer> Desenvolvido por Maison Galvão &#8482 </footer>
+
+  </html>
