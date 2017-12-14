@@ -80,54 +80,38 @@
 
 
   <div class="caixa-iframe">
-     <p> Iframe </p>
+     <p> Iframe - border-image</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9666365332278!2d-59.96398178524287!3d-3.1035202977400598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c04cb89c50b91%3A0xe928366bbc7a312!2sRua+Julia+Lopes+-+Japiim%2C+Manaus+-+AM!5e0!3m2!1spt-BR!2sbr!4v1512931381677"
 width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+
   </div>
 
 <div class="caixa-audio">
-  <p> Aúdio </p>
+  <p> Aúdio  - box-shadow</p>
   <audio controls src="music/Despacito.mp3" >
   </audio>
 </div>
 
 <div class="caixa-video">
-  <p> Vídeo </p>
+  <p> Vídeo - border radius</p>
 <video controls src="video/star-wars.webm" poster="images/posterimage.jpg">
 </video>
 </div>
 
   </div>
 
-  <p id="texto" class="categoria"> Texto </p>
-  <strong>Exemplo de marcação semântica</strong>
-  <em> Marcação semântica </em>
-  <blockquote cite="http://www.google.com">
-    A resposta das perguntas está aqui.
-  </blockquote>
-  <q cite="Maison Galvão"> Eu vou conseguir e vai ser agora</q>
-  <abbr title="Organização Mundial de Saúde"> OMS </abbr>
-  <cite>Adoro a série cosmos </cite>
-  <dfn>Google</dfn> é um site de pesquisas.
-  <address id="email" <a href="mailto:maisongalvao144@gmail.com">
-    maisongalvao144@gmail.com </a>
-  </address>
-  <p>Texto original</p>
-  <p>Texto original <ins>Inserido</ins>  </p>
-  <p>Texto original <del>Exluído</del> </p>
-  <p>Texto original <s>Não relevante </s> </p>
 
   <p id="listas" class="categoria"> Listas</p>
-  <p>Listas ordenadas</p>
-  <ol>
+  <p>Listas ordenadas - list-style-type</p>
+  <ol id="lista-1">
     <li>Vasco</li>
     <li>Flamengo</li>
     <li>São Paulo</li>
     <li>Botafogo</li>
   </ol>
 
-  <p> Listas Não ordenadas </p>
-  <ul>
+  <p> Listas Não ordenadas - list style image </p>
+  <ul id="lista-2">
     <li>Morango</li>
     <li>Chocolate</li>
     <li>Abacaxi</li>
@@ -151,13 +135,13 @@ width="400" height="400" frameborder="0" style="border:0" allowfullscreen></ifra
   </ul>
 
     <p id="links" class="categoria"> Links </p>
-  <p>Para outros sites </p>s
+  <p>Para outros sites - :link :visited :hover :active </p>
   <a href="http:\\www.facebook.com/maisonsouza"> Facebook </a>
-  <p>Para o próprio site</p>
-  <a href="primeira-pagina.html">Home</a>
-  <p>Links de Email com target</p>
+
+  <a href="css.html">Home</a>
+
   <a href="mailto:maisongalvao144@gmail.com" target="_blank">Meu Email</a>
-  <p>Links para classes</p>
+
   <a href="#email">Meu Email</a>
 
     <p id="imagens" class="categoria"> Imagens </p>
@@ -171,7 +155,7 @@ width="400" height="400" frameborder="0" style="border:0" allowfullscreen></ifra
   </figure>
 
     <p id="tabelas"class="categoria"> Tabelas </p>
-  <table>
+  <table id="tabela-1">
 
     <tr>
       <td>Maison</td>
@@ -187,7 +171,7 @@ width="400" height="400" frameborder="0" style="border:0" allowfullscreen></ifra
   </table>
   <p> Tabelas com títulos</p>
 
-  <table>
+  <table id="tabela-2">
     <tr>
       <th>Nomes</th>
       <td>Maison</td>
@@ -204,7 +188,7 @@ width="400" height="400" frameborder="0" style="border:0" allowfullscreen></ifra
   </table>
 
   <p> Mesclando colunas</p>
-  <table>
+  <table id="tabela-3">
     <tr>
       <th>Nomes</th>
       <td>Luciano</td>
@@ -224,7 +208,7 @@ width="400" height="400" frameborder="0" style="border:0" allowfullscreen></ifra
   </table>
 
   <p> Mesclando linhas</p>
-  <table>
+  <table id="tabela-4">
     <tr>
       <th>Nomes</th>
       <td rowspan="2">Crianças</td>
@@ -244,7 +228,7 @@ width="400" height="400" frameborder="0" style="border:0" allowfullscreen></ifra
 
   <p> Tabelas Longas</p>
 
-  <table>
+  <table id="tabela-5">
     <thead>
       <tr>
         <th>Nomes</th>
@@ -281,9 +265,9 @@ width="400" height="400" frameborder="0" style="border:0" allowfullscreen></ifra
   </table>
 
   <p id="formularios"class="categoria"> Formulários </p>
-  <form class="exemplo" action="index.html" method="get">
+  <form id="form-1" class="exemplo" action="index.html" method="get">
     <p>Usuário</p>
-    <input type="text" name="username" value="" size="15" maxlength="30" />
+    <input id="user" type="text" name="username" value="" size="15" maxlength="30" />
     <p>Password</p>
     <input type="password" name="password" value="" size="10" maxlength="20" />
     <p>Mensagem</p>

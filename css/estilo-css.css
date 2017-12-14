@@ -212,7 +212,7 @@ footer{
 }
 
 .caixa-iframe{
-  border-style:dashed;
+  -webkit-border-image: url("../images/border.png") 11 11 11 11 stretch;
   border-width: thin;
   height: 400px;
   width: 400px;
@@ -221,6 +221,8 @@ footer{
 }
 
 iframe{
+  -webkit-border-image: url("../images/border.png");
+    border-image: url("../images/border.png");
   height: 80%;
   width: 80%;
 }
@@ -228,6 +230,7 @@ iframe{
 .caixa-audio{
     border-style:dashed;
   border-width: medium;
+  box-shadow: -5px -5px #777777;
   height: 150px;
   width: 400px;
   background-color: #bbbbaa;
@@ -242,6 +245,7 @@ audio{
 .caixa-video{
     border-style:dashed;
   border-width: thick;
+  border-radius: 100px;
   height: 400px;
   width: 400px;
   background-color: #bbbbaa;
@@ -265,4 +269,98 @@ video{
   border-width: thin;
   margin-bottom: 3em;
   margin-top: 2em;
+}
+
+#listas{
+text-align: center;
+}
+
+#lista-1{
+  width: 300px;
+  margin: 0 auto;
+  list-style-type: upper-roman;
+  width: fit-content;
+}
+
+#lista-2 {
+  width: 100px;
+  margin: 0 auto;
+  list-style-image: url("../images/lista.png");
+}
+#lista-2 li {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.categoria ~ a:link{
+  color:deeppink;
+  text-decoration: none;
+}
+.categoria ~ a:visited{
+  color: darkcyan;
+}
+.categoria ~ a:active{
+  color: black;
+}
+.categoria ~ a:hover{
+  color: brown;
+  text-decoration: line-through;
+}
+
+#tabela-1{
+  width: 600px;
+  border: 1px solid black;
+  margin:0 auto;
+}
+#tabela-1 th,td{
+  border: 1px solid black;
+  padding: 7px 10px 10px 10px;
+}
+#tabela-1 th{
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+}
+tr:hover{
+  background-color: #c3e6e5;
+}
+td:hover{
+  background-color: #efefef;
+}
+#tabela-2{
+  margin:0 auto;
+}
+#tabela-3{
+  margin:0 auto;
+}
+#tabela-4{
+  margin:0 auto;
+}
+#tabela-5{
+  margin:0 auto;
+}
+
+#form-1{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #c3e6e5;
+}
+
+#form-1 input{
+  font-size: 120%;
+  color: #5a5854;
+  background-color: #f2f2f2;
+  border:2px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 10px 40px 10px 0px
+}
+
+#form-1 input:focus{
+background-color: #ffffff;
+border:1px solid #b1e1e4;
+}
+
+#user{
+background-image: url("../images/user.png");
+background-repeat: no-repeat;
+background-position: 8px 9px;
 }
