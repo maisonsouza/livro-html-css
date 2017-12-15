@@ -1,3 +1,4 @@
+
 body{
   background-image: url("../images/fundo.jpg");
 }
@@ -365,6 +366,7 @@ background-repeat: no-repeat;
 background-position: 8px 9px;
 }
 
+<<<<<<< HEAD
 textarea{
  font-size: 120%;
  width: 400px;
@@ -429,4 +431,31 @@ margin: 5px;
 
 .cursor-example{
   cursor:move;
+=======
+img.align-center{
+  display: block;
+  margin: 0px auto;
+}
+img.small{
+  width: 100px;
+  height: 100px;
+}
+
+img.align-left{
+  display: block;
+}
+
+img.medium{
+  width:250px;
+  height: 250px;
+}
+
+img.align-right{
+display: block;
+}
+
+img.large{
+  width: 500px;
+  height: 500px;
+>>>>>>> d9af3698e52dd7a990fc1ca895ad8dee0eca2b3e
 }
