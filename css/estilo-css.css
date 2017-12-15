@@ -1,3 +1,4 @@
+
 body{
   background-image: url("../images/fundo.jpg");
 }
@@ -363,4 +364,31 @@ border:1px solid #b1e1e4;
 background-image: url("../images/user.png");
 background-repeat: no-repeat;
 background-position: 8px 9px;
+}
+
+img.align-center{
+  display: block;
+  margin: 0px auto;
+}
+img.small{
+  width: 100px;
+  height: 100px;
+}
+
+img.align-left{
+  display: block;
+}
+
+img.medium{
+  width:250px;
+  height: 250px;
+}
+
+img.align-right{
+display: block;
+}
+
+img.large{
+  width: 500px;
+  height: 500px;
 }
