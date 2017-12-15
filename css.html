@@ -23,7 +23,9 @@
     <li> <a href="#listas">Listas</a> </li>
     <li> <a href="#tabelas">Tabelas</a> </li>
     <li> <a href="#formularios">Formulários</a> </li>
+    <li> <a href="#layout">Layout</a> </li>
     <li> <a href="#imagens">Imagens</a> </li>
+
   </ul>
 </nav>
   <main>
@@ -302,10 +304,10 @@ width="400" height="400" frameborder="0" style="border:0" allowfullscreen></ifra
   <input type="file" name="song" />
   <input type="submit" value="Upload">
 
-  <p>Botão Enviar</p>
+  <p>Estilizando Botão Enviar</p>
   <p>Email</p>
   <input type="text" name="email" >
-  <input type="submit" name="inscrever" value="Subscribe">
+  <input id="botao-1" type="submit" name="inscrever" value="Subscribe">
 
   <p>Botão de Imagem</p>
   <p>Email</p>
@@ -320,38 +322,46 @@ width="400" height="400" frameborder="0" style="border:0" allowfullscreen></ifra
 
   <p>Rotulando controle de formulários</p>
   <p>Seus dados</p>
-  <label>Idade: <input type="text" name="idade"> </label> <br>
-  <label>Sexo:</label>
+  <label class="form-title">Idade: <input type="text" name="idade"> </label> <br>
+  <label class="form-title">Sexo:</label>
   <input id="male" type="radio" name="genero" value="m" checked="checked" />
-  <label for="male">Masculino</label>
+  <label class="form-title" for="male">Masculino</label>
   <input id="female" type="radio" name="genero" value="f" />
-  <label for="female">Feminino</label>
+  <label  for="female" class="formulario-title">Feminino</label>
 
 
-  <p>Agrupando Elementos de Formulário</p>
+  <p>Agrupando Elementos de Formulário - Estilziando Fieldset</p>
   <fieldset>
     <legend>Detalhes para contato</legend>
-    <label>Email:<br/>
+    <label>Email:
       <input type="text" name="email">
     </label>
 
-    <label>Celular: <br/>
+    <label>Celular:
       <input type="text" name="celular">
     </label>
 
-    <label>Telefone:<br/>
+    <label>Telefone:
       <input type="text" name="telefone">
     </label>
   </fieldset>
 
-  <p>Validação de Formulário</p>
+  <p> Formulário com div</p>
+
   <form class="exemplo" action="index.html" method="post">
-    <label for="user">Usuário</label>
+    <div class="form-1">
+    <label for="user" class="title">Usuário: </label>
     <input id="user "type="text" name="username" value="" size="15" maxlength="30" required="required"/>
-    <label for="password">Password</label>
+  </div>
+  <div class="form-1" >
+    <label for="password" class="title">Password: </label>
     <input id="password" type="password" name="password" value="" size="10" maxlength="20" />
+    </div>
+    <div class="form-1">
     <input type="submit" name="enviar" value="Enviar">
+    </div>
   </form>
+
 
 
   <p>Entrada de datas</p>
@@ -361,21 +371,11 @@ width="400" height="400" frameborder="0" style="border:0" allowfullscreen></ifra
     <input type="submit" value="Enviar">
   </form>
 
-  <p>Entrada de email e url</p>
-  <form class="" action="index.html" method="post">
-    <label>Entre com seu Email:<br/>
-      <input type="email" name="email">
-    </label>
-    <label>Url:</label>
-    <input type="url" name="url">
+  <p>Estilos de cursor</p>
+<a class="cursor-example"href="http:\\www.facebook.com/maisonsouza"> Facebook </a>
 
-    <input type="submit" value="Enviar">
-  </form>
 
-  <p>Entrada de pesquisa</p>
-  <input type="search" name="pesquisar" placeholder="Entre com a pesquisa">
-  <input type="submit" value="Pesquisar">
-
+<p id="layout"class="categoria"> Layout </p>
 
 
     </main>
